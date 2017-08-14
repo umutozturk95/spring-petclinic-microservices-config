@@ -17,8 +17,6 @@ spring:
 
 spring.datasource.username: root 
 spring.datasource.password: 123 
-spring.datasource.driver-class-name: com.mysql.jdbc.Driver 
-spring.datasource.driverClassName: com.mysql.jdbc.Driver
 spring.jpa.database: MYSQL 
 spring.jpa.database-platform: org.hibernate.dialect.MySQLDialect
 spring.datasource.initialize: true
