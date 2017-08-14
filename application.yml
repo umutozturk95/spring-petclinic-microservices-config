@@ -15,7 +15,6 @@ spring:
     sampler:
       percentage: 1.0
 
-spring.datasource.driverClassName : com.mysql.jdbc.Driver
 spring.datasource.username: root 
 spring.datasource.password: 123 
 spring.datasource.driver-class-name: com.mysql.jdbc.Driver 
