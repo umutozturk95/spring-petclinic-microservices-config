@@ -5,6 +5,7 @@ server.port: 0
 
 # database init, supports mysql too
 petclinic.database: mysql
+
 spring:
   datasource:
     schema: classpath*:db/${petclinic.database}/schema.sql
@@ -13,6 +14,7 @@ spring:
     sampler:
       percentage: 1.0
 
+spring.datasource.initialize: true
 # JPA
 spring.jpa.hibernate.ddl-auto: none
 
