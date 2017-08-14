@@ -16,12 +16,12 @@ spring:
     sampler:
       percentage: 1.0
 
-spring.datasource.driverClassName = com.mysql.jdbc.Driver
-spring.datasource.username=root 
-spring.datasource.password=123 
-spring.datasource.driver-class-name=com.mysql.jdbc.Driver 
-spring.jpa.database=MYSQL 
-spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+spring.datasource.driverClassName : com.mysql.jdbc.Driver
+spring.datasource.username: root 
+spring.datasource.password: 123 
+spring.datasource.driver-class-name: com.mysql.jdbc.Driver 
+spring.jpa.database: MYSQL 
+spring.jpa.database-platform: org.hibernate.dialect.MySQLDialect
 spring.datasource.initialize: true
 # JPA
 spring.jpa.hibernate.ddl-auto: none
