@@ -4,10 +4,7 @@
 server.port: 0
 
 # database init, supports mysql too
-petclinic.database: mysql
-spring.datasource.url: jdbc:mysql://localhost/petclinic
-spring.datasource.username: root
-spring.datasource.password: 123
+petclinic.database: hsqldb
 spring:
   datasource:
     schema: classpath*:db/${petclinic.database}/schema.sql
@@ -23,4 +20,4 @@ spring.jpa.hibernate.ddl-auto: none
 management.security.enabled: false
 
 # Logging
-logging.level.org.springframework: DEBUG
+logging.level.org.springframework: TRACE
