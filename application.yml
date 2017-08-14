@@ -10,7 +10,7 @@ spring:
   datasource:
     schema: classpath*:db/${petclinic.database}/schema.sql
     data: classpath*:db/${petclinic.database}/data.sql
-    url:  jdbc:mysql://localhost:3306/petclinic?useUnicode=true
+    url:  jdbc:mysql://localhost:3306/petclinic
   sleuth:
     sampler:
       percentage: 1.0
