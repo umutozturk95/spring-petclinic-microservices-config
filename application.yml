@@ -25,6 +25,8 @@ spring.datasource.initialize: true
 # JPA
 spring.jpa.hibernate.ddl-auto: none
 
+spring.profiles.active: mysql,spring-data-jpa
+
 # Spring Boot 1.5 makes actuator secure by default
 management.security.enabled: false
 
