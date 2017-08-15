@@ -10,13 +10,11 @@ spring:
   datasource:
     schema: classpath*:db/${petclinic.database}/schema.sql
     data: classpath*:db/${petclinic.database}/data.sql
-    url:  jdbc:mysql://localhost:3306/petclinic
+    url:  jdbc:mysql://localhost:3306/?user=root&password=123
   sleuth:
     sampler:
       percentage: 1.0
 
-spring.datasource.username: root 
-spring.datasource.password: 123 
 spring.jpa.database: MYSQL 
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver 
 spring.jpa.database-platform: org.hibernate.dialect.MySQLDialect
