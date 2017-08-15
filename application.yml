@@ -17,6 +17,7 @@ spring:
 
 spring.datasource.driver-class-name: com.mysql.jdbc.Driver 
 spring.jpa.database-platform: org.hibernate.dialect.MySQLDialect
+spring.jpa.database: MYSQL 
 # JPA
 spring.jpa.hibernate.ddl-auto: none
 
