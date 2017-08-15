@@ -1,7 +1,7 @@
 # COMMON APPLICATION PROPERTIES
 
 # start services on random port by default
-server.port: 0
+server.port: 0spring.profiles.active: mysql,spring-data-jpa
 
 # database init, supports mysql too
 petclinic.database: mysql
@@ -20,8 +20,6 @@ spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.jpa.database-platform: org.hibernate.dialect.MySQLDialect
 # JPA
 spring.jpa.hibernate.ddl-auto: none
-
-spring.profiles.active: mysql,spring-data-jpa
 
 # Spring Boot 1.5 makes actuator secure by default
 management.security.enabled: false
