@@ -17,7 +17,6 @@ spring:
       
 s
 spring.datasource.driver-class-name: com.mysql.jdbc.Driver 
-spring.datasource.driverClassName: com.mysql.jdbc.Driver
 spring.jpa.database-platform: org.hibernate.dialect.MySQLDialect
 spring.jpa.database: MYSQL 
 # JPA
