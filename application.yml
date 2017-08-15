@@ -15,7 +15,7 @@ spring:
     sampler:
       percentage: 1.0
       
-s
+
 spring.datasource.driver-class-name: com.mysql.jdbc.Driver 
 spring.jpa.database-platform: org.hibernate.dialect.MySQLDialect
 spring.jpa.database: MYSQL 
