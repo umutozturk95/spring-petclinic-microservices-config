@@ -1,7 +1,7 @@
 # COMMON APPLICATION PROPERTIES
 
 # start services on random port by default
-server.port: 0spring.profiles.active: mysql,spring-data-jpa
+server.port: 0
 
 # database init, supports mysql too
 petclinic.database: mysql
@@ -15,7 +15,6 @@ spring:
     sampler:
       percentage: 1.0
 
-spring.jpa.database: MYSQL 
 spring.datasource.driver-class-name: com.mysql.jdbc.Driver 
 spring.jpa.database-platform: org.hibernate.dialect.MySQLDialect
 # JPA
