@@ -16,7 +16,7 @@ spring:
       percentage: 1.0
 
 spring.jpa.database: MYSQL 
-spring.datasource.driver-class-name=com.mysql.jdbc.Driver 
+spring.datasource.driver-class-name: com.mysql.jdbc.Driver 
 spring.jpa.database-platform: org.hibernate.dialect.MySQLDialect
 # JPA
 spring.jpa.hibernate.ddl-auto: none
